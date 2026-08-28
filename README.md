@@ -13,3 +13,5 @@
 ## 当前 Demo
 
 - `demos/operation-diagnostic/`：五层经营诊断，演示模拟数据。
+- `demos/operation-diagnostic-v2/`：五层经营诊断 V2，保留 V1 独立版本。
+- `demos/coordinate-converter/`：经纬度转换与地理数据处理工具，演示数据在浏览器本地处理。
