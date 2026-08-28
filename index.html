@@ -28,6 +28,7 @@
     .section-head { display:flex; justify-content:space-between; align-items:end; gap:20px; padding:34px 0 18px; }
     h2 { margin:0; font-size:15px; letter-spacing:-.01em; }
     .section-head p { margin:0; color:var(--muted); font-size:12px; }
+    .demo-list { display:grid; gap:16px; }
     .demo-card { display:grid; grid-template-columns:150px minmax(0,1fr) 180px; min-height:248px; border:1px solid var(--line); background:var(--paper); transition:transform .18s ease-out, box-shadow .18s ease-out, border-color .18s ease-out; }
     .demo-card:hover { transform:translateY(-3px); border-color:#b8c5ea; box-shadow:0 18px 40px rgba(10,35,92,.10); }
     .folio { display:flex; flex-direction:column; justify-content:space-between; padding:24px; border-right:1px solid var(--line); color:var(--blue); }
@@ -65,7 +66,7 @@
   <div class="shell">
     <header>
       <div class="brand">Location Demo 展示库<small>PUBLIC INTERACTIVE DEMOS</small></div>
-      <div class="count">01 个公开 Demo</div>
+      <div class="count">02 个公开 Demo</div>
     </header>
     <main>
       <section class="intro">
@@ -76,19 +77,34 @@
         </div>
       </section>
       <div class="section-head"><h2>Demo 目录</h2><p>点击卡片进入完整交互页面</p></div>
-      <article class="demo-card">
-        <div class="folio"><strong>01</strong><span>OPERATIONS</span></div>
-        <div class="demo-main">
-          <span class="badge">可演示</span>
-          <h3>五层经营诊断</h3>
-          <p>从全国、一代、城市、片区到商圈逐级定位经营问题，对比两个品牌的完成率、同比、渗透率与渠道结构，并输出 AI 诊断建议。</p>
-          <div class="tags"><span>经营诊断</span><span>地图下钻</span><span>南京模拟数据</span><span>离线资源</span></div>
-        </div>
-        <div class="demo-action">
-          <dl><dt>更新时间</dt><dd>2026-08-28</dd><dt>数据说明</dt><dd>演示模拟数据</dd><dt>适配</dt><dd>桌面端</dd></dl>
-          <a class="open-link" href="./demos/operation-diagnostic/">打开 Demo</a>
-        </div>
-      </article>
+      <div class="demo-list">
+        <article class="demo-card">
+          <div class="folio"><strong>01</strong><span>OPERATIONS</span></div>
+          <div class="demo-main">
+            <span class="badge">原版保留</span>
+            <h3>五层经营诊断</h3>
+            <p>从全国、一代、城市、片区到商圈逐级定位经营问题，对比两个品牌的完成率、同比、渗透率与渠道结构，并输出 AI 诊断建议。</p>
+            <div class="tags"><span>经营诊断</span><span>地图下钻</span><span>南京模拟数据</span><span>V1</span></div>
+          </div>
+          <div class="demo-action">
+            <dl><dt>更新时间</dt><dd>2026-08-28</dd><dt>数据说明</dt><dd>演示模拟数据</dd><dt>适配</dt><dd>桌面端</dd></dl>
+            <a class="open-link" href="./demos/operation-diagnostic/">打开 Demo</a>
+          </div>
+        </article>
+        <article class="demo-card">
+          <div class="folio"><strong>02</strong><span>OPERATIONS</span></div>
+          <div class="demo-main">
+            <span class="badge">最新版本</span>
+            <h3>五层经营诊断 V2</h3>
+            <p>当前 Demo 的独立版本副本，保留完整五层下钻、双品牌核心指标、地图交互与 AI 诊断，可在不影响 V1 链接的情况下继续迭代。</p>
+            <div class="tags"><span>经营诊断</span><span>独立版本</span><span>南京模拟数据</span><span>V2</span></div>
+          </div>
+          <div class="demo-action">
+            <dl><dt>更新时间</dt><dd>2026-08-28</dd><dt>数据说明</dt><dd>演示模拟数据</dd><dt>适配</dt><dd>桌面端</dd></dl>
+            <a class="open-link" href="./demos/operation-diagnostic-v2/">打开 Demo</a>
+          </div>
+        </article>
+      </div>
       <footer><span>Location Demo 展示库</span><span>公开页面请勿放置客户隐私、账号或接口密钥</span></footer>
     </main>
   </div>
