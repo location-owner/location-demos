@@ -15,3 +15,4 @@
 - `demos/operation-diagnostic/`：五层经营诊断，演示模拟数据。
 - `demos/operation-diagnostic-v2/`：五层经营诊断 V2，保留 V1 独立版本。
 - `demos/coordinate-converter/`：经纬度转换与地理数据处理工具，演示数据在浏览器本地处理。
+- `demos/rongqiu-personal-web/`：绒球个人网页，客户成功待办与跟进工作台，数据保存在访问者浏览器本地。
